@@ -1,0 +1,54 @@
+section {
+    scroll-margin-top: 60px;
+}
+
+
+h1 {
+    font-family: "Lora", serif;
+    font-size: 80px;
+    line-height: 110%;
+    font-weight: 600;
+    color: #101932;
+    text-align: center;
+    @media screen and(max-width:768px) {
+        font-size: 40px;
+    }
+    @media screen and(max-width:420px) {
+        font-size: 36px;
+    }
+}
+
+h2 {
+    font-family: "Lora", serif;
+    font-size: 64px;
+    line-height: 110%;
+    font-weight: 600;
+    color: #101932;
+    text-align: center;
+
+    @media screen and(max-width:768px) {
+        font-size: 36px;
+    }
+}
+
+h3 {
+    font-family: "Lora", serif;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #070b04;
+    @media screen and(max-width:320px) {
+        font-size: 16px;
+    }
+
+}
+
+h4 {
+    font-family: "Lora", serif;
+    font-size: 24px;
+    line-height: 110%;
+    font-weight: 600;
+    color: #001652;
+    text-align: center;
+}

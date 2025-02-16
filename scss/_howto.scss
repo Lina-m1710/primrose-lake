@@ -1,0 +1,53 @@
+.howto{
+    padding: 80px 0 0;
+}
+
+.howto-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 66px 40px;
+    margin-top: 40px;
+    @media screen and(max-width:768px){
+        max-width: 343px;
+       margin: 0 auto;
+     }
+}
+.howto-list .slick-track{
+    @media screen and(max-width:768px){
+        padding: 40px 0 146px;
+    }
+}
+
+.howto-item{
+    width: 400px;
+    display: flex !important;
+    gap: 24px;
+    align-items: flex-start;
+
+}
+.howto-item-img{
+    width: 96px;
+
+    @media screen and(max-width:768px){
+        width: 30%;
+    }
+}
+.howto-item-text{
+    width: 280px;
+}
+.howto-item-text h4{
+    text-align: left;
+    @media screen and(max-width:768px){
+        font-size: 20px;
+    }
+}
+.howto-item-text p{
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 16px;
+    @media screen and(max-width:768px){
+        font-size: 14px;
+    }
+}
+
